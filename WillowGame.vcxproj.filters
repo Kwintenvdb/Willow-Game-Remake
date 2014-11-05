@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Willow">
+      <UniqueIdentifier>{ca571777-bf94-4f87-af67-61b2bc6914c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Fireballs">
+      <UniqueIdentifier>{cc65ae2c-3f5e-41bb-9d6e-acc3d463537a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\WillowGame">
+      <UniqueIdentifier>{cbd5c682-0489-4e49-a994-7d1c1dd42b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy">
+      <UniqueIdentifier>{502dff98-0e5a-4946-98b9-932c2b05d51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Soldier">
+      <UniqueIdentifier>{4e26a0c2-a083-48da-a33e-a0fe5ba1a195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Brute">
+      <UniqueIdentifier>{63f11851-18fb-4e4d-8872-6c8afa38c095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Devildog">
+      <UniqueIdentifier>{458dd2bc-6a3c-41a8-9896-0aadd8d01d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Deathdog">
+      <UniqueIdentifier>{c51a55eb-a3af-4f03-a1d0-d58e81d03c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Treasure / Coins">
+      <UniqueIdentifier>{a66f41aa-9272-4925-8719-1d9b2951534d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Treasure / Coins\Treasure">
+      <UniqueIdentifier>{f141cb78-3bc7-4a97-a075-aaddd3f3dd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Treasure / Coins\Coin">
+      <UniqueIdentifier>{bf6e26f6-20fe-41fc-a77b-1ba4bcb9a1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Enemy">
+      <UniqueIdentifier>{e021995d-e87b-44ac-bc36-07fce64dc424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Necromancer">
+      <UniqueIdentifier>{355eb1f3-7ee6-4237-b94e-e65b506623b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Shopkeeper">
+      <UniqueIdentifier>{aa85ae9e-ba20-49d5-be22-1020eeb3f676}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WillowGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="big.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinMain.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Willow.h">
+      <Filter>Game Files\Willow</Filter>
+    </ClInclude>
+    <ClInclude Include="TestWillow.h">
+      <Filter>Game Files\Willow</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Game Files\Fireballs</Filter>
+    </ClInclude>
+    <ClInclude Include="WillowGame.h">
+      <Filter>Game Files\WillowGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Game Files\Enemy\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Brute.h">
+      <Filter>Game Files\Enemy\Brute</Filter>
+    </ClInclude>
+    <ClInclude Include="Devildog.h">
+      <Filter>Game Files\Enemy\Devildog</Filter>
+    </ClInclude>
+    <ClInclude Include="Deathdog.h">
+      <Filter>Game Files\Enemy\Deathdog</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>Game Files\Treasure / Coins\Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Game Files\Treasure / Coins\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Enemy\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Necromancer.h">
+      <Filter>Game Files\Enemy\Necromancer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shopkeeper.h">
+      <Filter>Game Files\Shopkeeper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameWinMain.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Willow.cpp">
+      <Filter>Game Files\Willow</Filter>
+    </ClCompile>
+    <ClCompile Include="TestWillow.cpp">
+      <Filter>Game Files\Willow</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Game Files\Fireballs</Filter>
+    </ClCompile>
+    <ClCompile Include="WillowGame.cpp">
+      <Filter>Game Files\WillowGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Game Files\Enemy\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute.cpp">
+      <Filter>Game Files\Enemy\Brute</Filter>
+    </ClCompile>
+    <ClCompile Include="Devildog.cpp">
+      <Filter>Game Files\Enemy\Devildog</Filter>
+    </ClCompile>
+    <ClCompile Include="Deathdog.cpp">
+      <Filter>Game Files\Enemy\Deathdog</Filter>
+    </ClCompile>
+    <ClCompile Include="Treasure.cpp">
+      <Filter>Game Files\Treasure / Coins\Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Game Files\Treasure / Coins\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Enemy\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Necromancer.cpp">
+      <Filter>Game Files\Enemy\Necromancer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shopkeeper.cpp">
+      <Filter>Game Files\Shopkeeper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
